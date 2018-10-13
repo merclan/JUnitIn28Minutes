@@ -12,7 +12,7 @@ public interface Client {
 
 	String getName();
 
-	Enum<?> getType();
+	Enum<ClientType> getType();
 
 	List<Collateral> getCollaterals();
 

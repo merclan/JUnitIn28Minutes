@@ -14,7 +14,7 @@ public enum CollateralType {
 	/**
 	 * All collateral types classified as securities.
 	 */
-	public static final List<CollateralType> SECURITIES = Arrays.asList(BONDS,
+	protected static final List<CollateralType> SECURITIES = Arrays.asList(BONDS,
 			MUTUAL_FUNDS, STOCKS);
 
 	CollateralType(final String textValue) {

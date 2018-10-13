@@ -21,13 +21,13 @@ public enum ClientType {
 	/**
 	 * List of natural person types.
 	 */
-	public static final List<String> NATURAL_PERSON_TYPES = Arrays
+	protected static final List<String> NATURAL_PERSON_TYPES = Arrays
 			.asList(ClientType.PRIVATE.toString());
 
 	/**
 	 * List of corporate types.
 	 */
-	public static final List<String> CORPORATE_TYPES = Arrays
+	protected static final List<String> CORPORATE_TYPES = Arrays
 			.asList(ClientType.BUSINESS.toString());
 
 	ClientType(final String textValue) {
