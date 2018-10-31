@@ -42,7 +42,7 @@ public class Car {
       return false;
     }
     Car car = (Car) obj;
-    return model == car.getModel() &&
+    return Objects.equals(model,car.getModel()) &&
         Objects.equals(brand, car.getBrand());
   }
 
